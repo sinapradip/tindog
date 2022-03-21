@@ -1,0 +1,292 @@
+body {
+    font-family: "Montserrat";
+    margin: 0;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+
+
+/* Title Section  */
+
+#title {
+    background-image: linear-gradient(45deg, #fd267a, #ff6036);
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 0% 15%;
+}
+
+
+
+
+/* Colored and white section */
+.colored-section {
+    background-color: #fd267a;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+    
+}
+
+
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 10% 15%;
+}
+
+
+
+
+
+/* Download buttons  */
+.btn-download {
+    margin: 5% 3% 5% 0;
+}
+
+.dog-image {
+    width: 50%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+
+
+
+
+
+/* Feature Section CSS*/
+#features {
+    position: relative;
+    background-color:white;
+    z-inxex: 1;
+}
+
+.feature-box {
+
+    padding: 5%;
+}
+
+.icon {
+    color: #ff6036;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #fd267a;
+}
+
+.col-lg-4 {
+    padding: 5rem;
+}
+
+.text-grey {
+    color: grey;
+}
+
+
+
+
+
+
+/* Testimonials Section CSS */
+#testimonials {
+    color: white;
+
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+.h2-bold {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+/* Press Section CSS */
+#press {
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+
+
+
+
+
+
+
+/* Pricing Section */
+
+#pricing {
+
+}
+
+.col-lg-4-edit {
+    padding: 1.5rem;
+    margin: auto;
+}
+
+.col-lg-4-edit:hover {
+
+}
+
+.card {
+    border-radius: 50px;
+}
+
+.card-body {
+    margin: 3rem auto;
+    
+}
+.card-header {
+    background-color: #fd267a;
+    color: white;
+
+}
+
+.margin-bottom {
+    margin: 5rem auto;
+}
+
+
+
+
+
+
+/* Call to action */
+#cta {
+    
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+.center-image {
+    text-align: center;
+    margin: 0 auto;
+}
+ 
+
+
+
+
+/* Footer Section */
+#footer {
+    
+    padding: 7% 15%;
+    color: black;
+}
+
+.social-icon {
+    margin: 2rem;
+}
+
+
+
+
+
+/* Edited heading section */
+.big-heading {
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 auto 0.5rem auto;
+}
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+
+
+/* Media Query */
+
+@media (max-width: 900px) {
+    #title {
+        text-align: center;
+    }
+    h3.big-heading {
+        font-size: 2rem;
+        line-height: 2;
+    }
+
+    .dog-image {
+        position: static;
+        transform: rotate(0deg);
+        margin: 5rem auto;
+       }
+
+    .nav-link {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+/* test section */
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+
